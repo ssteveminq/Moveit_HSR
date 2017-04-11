@@ -8,8 +8,7 @@ moveit instructions for using HSR
   * hsrb_moveit_config
 
 ## Install the HSR simulator
-You have to install HSR simulator from https://hsr.io 
-(You need an approved account to access this site)
+You have to install HSR simulator from https://hsr.io (You need an approved account to access this site)
 Please follow instructions 5.4.3.2 Installation of the HSR simulator.
 If you are going to use multiple computers, you have to edit bashrc ( follow instruction for 5.4.3.3 .bashrc setting)
 
@@ -32,7 +31,7 @@ $ roslaunch hsrb_gazebo_launch hsrb_megaweb2015_world.launch
 ```
 You should start the simulation for moveit to receive information from Gazebo simulation. 
 
-At the same time, moveit can be launched with following command
+At the same time, moveit can be launched with following command.
 ```
 roslaunch hsrb_moveit_config demo_with_controller.launch
 ```
